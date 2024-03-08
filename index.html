@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trabalhando com tabelas</title>
+    <title> Cardapio de produtos</title>
 </head>
-   <body>
-     <table> 
-      <thread>
-          <th>
-            <th>id</th>
-            <th>Produto</th>
-            <th>valor</th>
-            <th>Preço</th>
-          </th>
-      </thread>
-        
-             <td> 1</td>
-             <td> camisa bem feiona</td>
-             <td> Muito grande</td>
-             <td> R$ 200,00 </td>
-    
-            <td>2</td>
-            <td>bola amarela</td>
-            <td>pequena</td>
-            <td>R$ 2,00</td>
+<body>
+       <table border="1px">
+         <thead>
+            <thread>
+            <tr>
+                 <th rowspan="2" >codigo</th>
+                 <th rowspan="2" >item</th>
+                 <th colspan="3" >preço</th>
+                 <th rowspan="2" colspan="3" >Ações</th>
+             </tr>
+             <tr>
+                <th>P</th>
+                <th>M</th>
+                <th>G</th>
+            </h>
+             </tr>                                            
+             </thread>
+         </thead>
+         <tbody>
+            <tr>
+                <td rowspan="2" >A1516</td>
+                <td> sanduba do balacobaco</td>
+                <td rowspan="2" >5,00</td>
+                <td rowspan="2" >8,00</td>
+                <td rowspan="2" >12,00</td>
+                <td rowspan="2" ><i class="fa-solid fa-cart-plus"></i></td>
+                <td rowspan="2"><i class="fa-solid fa-cart-arrow-down"></td>
+                <td rowspan="2" ><I class="fa-solid fa-cash-resgister"></I></td>
+            </tr>
+            <tr>
+                <td> pão, carne, queijo, presunto, calabresa, molho especial, salada</td>
+            </tr>
+         </tbody>
+         <tfoot>
 
-        </tr>
-     </table>
+         </tfoot>
+       </table>
 </body>
 </html>
